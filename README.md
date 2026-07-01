@@ -147,7 +147,7 @@ pip install -r requirements.txt
 
 ---
 
-# 📡 Download Dataset
+# Download Dataset
 
 ```bash
 python -m scripts.download_dataset
