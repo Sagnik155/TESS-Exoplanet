@@ -1,4 +1,4 @@
-# 🌌 Exoplanet AI
+# Exoplanet AI
 ### AI-Powered Exoplanet Detection Using TESS Light Curves
 
 An end-to-end deep learning pipeline for automated exoplanet detection using NASA TESS observations. This project retrieves astronomical light curves from the MAST archive, preprocesses the data, and classifies potential exoplanet transit signals using a hybrid CNN–BiLSTM–Attention neural network.
@@ -7,7 +7,7 @@ Developed for the **ISRO Bharatiya Antariksh Hackathon**.
 
 ---
 
-# 🚀 Overview
+# Overview
 
 Modern astronomical missions such as NASA's Transiting Exoplanet Survey Satellite (TESS) generate enormous volumes of stellar observations every day. Identifying planetary transits from these observations manually is both time-consuming and computationally expensive.
 
@@ -22,20 +22,20 @@ This project automates the complete workflow:
 
 ---
 
-# ✨ Features
+# Features
 
-- 📡 Automatic retrieval of TESS observations
-- 🌍 Direct integration with NASA MAST Archive
-- 📁 FITS file processing
-- 📈 Light curve preprocessing pipeline
-- 🧠 CNN + BiLSTM + Attention architecture
-- ⚡ Automated exoplanet classification
-- 📊 Performance evaluation and visualization
-- 💾 Research-ready dataset generation
+- Automatic retrieval of TESS observations
+- Direct integration with NASA MAST Archive
+- FITS file processing
+- Light curve preprocessing pipeline
+- CNN + BiLSTM + Attention architecture
+- Automated exoplanet classification
+- Performance evaluation and visualization
+- Research-ready dataset generation
 
 ---
 
-# 🏗 Project Architecture
+# Project Architecture
 
 ```
 NASA MAST Archive
@@ -73,7 +73,7 @@ Planet Candidate / False Positive
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```
 Exoplanet/
@@ -109,12 +109,12 @@ Exoplanet/
 
 ---
 
-# ⚙ Installation
+# Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/<your_username>/TESS-Exoplanet.git
+git clone https://github.com/Sagnik155/TESS-Exoplanet.git
 
 cd TESS-Exoplanet
 ```
@@ -155,7 +155,7 @@ python -m scripts.download_dataset
 
 ---
 
-# 🧹 Preprocess Dataset
+# Preprocess Dataset
 
 ```bash
 python -m scripts.preprocess_dataset
@@ -163,7 +163,7 @@ python -m scripts.preprocess_dataset
 
 ---
 
-# 🧠 Train Model
+# Train Model
 
 ```bash
 python -m scripts.train_model
@@ -171,7 +171,7 @@ python -m scripts.train_model
 
 ---
 
-# 📊 Evaluate Model
+# Evaluate Model
 
 ```bash
 python -m scripts.evaluate_model
@@ -179,7 +179,7 @@ python -m scripts.evaluate_model
 
 ---
 
-# 🤖 Model Architecture
+# Model Architecture
 
 The proposed model combines spatial and temporal feature extraction:
 
@@ -193,7 +193,7 @@ This hybrid architecture enables robust extraction of planetary transit features
 
 ---
 
-# 🛰 Data Source
+# Data Source
 
 This project uses publicly available observations from:
 
@@ -205,7 +205,7 @@ No proprietary datasets are required.
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ### Programming
 
@@ -230,7 +230,7 @@ No proprietary datasets are required.
 
 ---
 
-# 📈 Workflow
+# Workflow
 
 ```
 Retrieve TESS Data
@@ -256,7 +256,7 @@ Predict Exoplanet Candidate
 
 ---
 
-# 🎯 Future Improvements
+# Future Improvements
 
 - Web-based prediction dashboard
 - Multi-class exoplanet classification
@@ -268,7 +268,7 @@ Predict Exoplanet Candidate
 
 ---
 
-# 👨‍💻 Authors
+# Authors
 
 **Sagnik Sinha**
 
@@ -276,13 +276,13 @@ Developed as part of the **ISRO Bharatiya Antariksh Hackathon**.
 
 ---
 
-# 📜 License
+# License
 
 This project is intended for educational and research purposes.
 
 ---
 
-# ⭐ Acknowledgements
+# Acknowledgements
 
 - NASA
 - TESS Mission
