@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and outputs
+logs/
+outputs/
+*.log
+
+# Data and caches
+data/raw/
+data/processed/
+temp_download/
+*.npy
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Local files
+*.env
